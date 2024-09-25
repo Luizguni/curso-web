@@ -1,0 +1,55 @@
+h1 {
+    background-image: url(sobre-background.jpg);
+    background-color: gray;
+    padding: 10px;
+    text-align: left;
+    margin-top: auto;
+}
+
+h2 {
+    border-bottom: 2px solid gray;
+    margin-top: 30px;
+}
+
+p {
+    font-family: monospace;
+    text-align: left;
+    padding: 0 45px; 
+    text-indent: 15px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+figure {
+    background-color: rgb(86, 121, 121);
+    border: 10px solid #333;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#centro-distribuicao {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 550px;
+}
+
+
+#família-Pelho {
+    float: left;
+    margin: 0 0 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 550px;
+ }

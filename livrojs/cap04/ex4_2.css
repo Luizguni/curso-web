@@ -1,0 +1,13 @@
+img {
+    margin: 0 10 15px;
+    float: center;
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    float: inline-end;
+}
+
+h1 {
+    border-bottom-style: inset;
+    border-color: black;
+}

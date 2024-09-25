@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VindeMusic</title>
+    <link rel="stylesheet" href="novo_projeto.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Ministério Vinde</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#events">Eventos</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle">☰</button>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="gev.jpeg" alt="Foto 1"></div>
+                <div class="slide"><img src="gedson.JPG" alt="Foto 2"></div>
+                <div class="slide"><img src="gru.jpeg" alt="Foto 3"></div>
+            </div>
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre o Ministério Vinde</h2>
+            <b>
+                <p>Vinde Music é uma banda cristã dedicada a levar mensagens de fé e esperança através da música.
+                    Com um som contemporâneo e letras inspiradoras, a banda busca conectar as pessoas a uma experiência
+                    espiritual profunda, promovendo a paz e o amor em cada canção.
+                    Com um estilo que mistura adoração e louvor, Vinde Music é mais do que uma banda—é um ministério que
+                    transforma vidas através da música.</p>
+            </b>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <h2>Eventos</h2>
+            <div class="event-filters">
+                <button data-filter="all">Todos</button>
+                <button data-filter="concert">Concerto</button>
+                <button data-filter="festival">Festivais</button>
+            </div>
+            <div class="event-list">
+                <div class="event concert">
+                    <h3>Ministração em Guarapari</h3>
+                    <p>Data: 13/12/2024</p>
+                    <p>Local: Vinde Ministerio</p>
+                </div>
+                <div class="event festival">
+                    <h3>Noite de Adoração</h3>
+                    <p>Data: 15/12/2024</p>
+                    <p>Local: Vinde Ministerio</p>
+                </div>
+                <!-- Adicione mais eventos conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Galeria de Fotos</h2>
+            <div class="gallery">
+                <div class="gallery-item"><img src="gev.jpeg" alt="Foto 1"></div>
+                <div class="gallery-item"><img src="nicolas.JPG" alt="Foto 2"></div>
+                <div class="gallery-item"><img src="gedson.JPG" alt="Foto 3"></div>
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="enviar.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vinde Music. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="novo_projeto.js"></script>
+</body>
+
+</html>

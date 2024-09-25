@@ -1,0 +1,157 @@
+/* Reseta o estilo padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #570000;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 50px 20px;
+    background: #000000;
+    color: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+.btn-main {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-main:hover {
+    background: #000000;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 300px;
+}
+
+.speakers-container,
+.agenda-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.speaker-card,
+.agenda-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 15px);
+    box-sizing: border-box;
+}
+
+.speaker-card img {
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #000000;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background: #570000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

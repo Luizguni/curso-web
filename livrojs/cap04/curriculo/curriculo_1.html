@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Guni</title>
+    <link rel="stylesheet" href="curriculo_1.css">
+</head>
+
+<body>
+    <header>
+        <h1>Luiz Guni</h1>
+        <p>Desenvolvedor Web | Front-End | Profissional Comprometido</p>
+    </header>
+
+    <main>
+        <section id="info">
+            <h2>Informações Pessoais</h2>
+            <button id="toggleInfo">Mostrar Detalhes</button>
+            <div id="personalInfo" class="hidden">
+                <p><strong>Email:</strong> luizguny@gmail.com</p>
+                <p><strong>Telefone:</strong> (27) 99902-6435</p>
+                <p><strong>LinkedIn:</strong> linkedin.com/in/luizguni</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experiência Profissional</h2>
+            <div class="experience-item">
+                <h3>Desenvolvedor Front-End</h3>
+                <p><strong>Empresa ABC</strong> - Jan 2022 a Atualidade</p>
+                <p>Desenvolvimento de interfaces responsivas e manutenção de código.</p>
+            </div>
+
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><button class="skill-btn" data-skill="html">HTML</button></li>
+                <li><button class="skill-btn" data-skill="css">CSS</button></li>
+                <li><button class="skill-btn" data-skill="js">JavaScript</button></li>
+
+            </ul>
+            <div id="skillDetails" class="hidden">
+                <p id="skillInfo">Selecione uma habilidade para mais detalhes.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="curriculo_1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule Seu Peso Ideal</title>
+    <link rel="icon" type="livrojs/cap04/img/balança.png">
+    <link rel="stylesheet" href="ex4_2.css">
+</head>
+
+<body>
+
+    <img src="img/balaça.png" alt="Balança">
+    <h1>Programa Cálculo de Peso Ideal</h1>
+
+    <form>
+
+        <p>Nome
+            <input type="text" id="inNome" required>
+        </p>
+
+        <p>Sexo
+            <input type="radio" name="sexo" id="inMasculino" required> Masculino
+            <input type="radio" name="sexo" id="inFeminino" required> Feminino
+        </p>
+
+        <p>Altura
+            <input type="number" min="0" step="0.01" id="inAltura" required>
+        </p>
+
+        <input type="submit" value="Calcular Peso Ideal">
+        <input type="reset" value=" Limpar Campos">
+    </form>
+    <h3></h3>
+    <script src="ex4_2.js"></script>
+</body>
+
+</html>
